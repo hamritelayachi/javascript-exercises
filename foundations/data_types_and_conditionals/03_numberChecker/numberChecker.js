@@ -1,10 +1,10 @@
 function numberChecker(number) {
-  if (number === 6) {
+  if (number >= 10) {
     return true;
   } else {
     return false;
   }
 }
 
-// Do not edit below this line
+// Do not edit below thsi line
 module.exports = numberChecker;
